@@ -421,7 +421,6 @@ message.channel.send(args);
 };
 })
 lient.on('message',async message => {
- var prefix = '+';//البرفكس
   if(message.content.startsWith(prefix + "تقديم")) {
  
 if(!message.channel.guild) return message.reply(' ');
